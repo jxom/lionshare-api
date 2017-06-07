@@ -137,6 +137,18 @@ const cryptoCurrencyMap = {
     pair: 'BTC_GNT',
     intermediateCurrency: 'BTC'
   },
+  NXT: {
+    exchange: 'poloniex',
+    hasNativeCurrency: false,
+    pair: 'BTC_NXT',
+    intermediateCurrency: 'BTC'
+  },
+  STRAT: {
+    exchange: 'poloniex',
+    hasNativeCurrency: false,
+    pair: 'BTC_STRAT',
+    intermediateCurrency: 'BTC'
+  }
 };
 
 export { cryptoCurrencyMap };
